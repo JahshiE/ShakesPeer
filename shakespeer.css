@@ -1,9 +1,20 @@
 .solution {
-    
+    /* This section is also called article, with an article tag */
+    width: 800px;
+}
+
+body {
+    font-family: Verdana;
 }
 
 h1 {
     color: goldenrod;
+}
+
+.solution figure {
+    width: 600px;
+    border: 3px solid red;
+    padding: 5px;
 }
 
 /* Notes:
