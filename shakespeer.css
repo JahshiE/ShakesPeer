@@ -10,6 +10,25 @@ body {
 h1 {
     color: goldenrod;
 }
+nav ul {
+    background-color: orangered;
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    border: 1px solid orange;
+}
+nav ul li {
+    border-bottom: 1px solid yellow;
+    padding: 5px;
+}
+nav ul li a {
+    color: white;
+     text-decoration: none; /* This removes the underline */ 
+}
+nav ul li a:hover {
+    /* Makes the link underlined when mouse hovers over */
+    text-decoration: underline;
+}
 
 .solution figure {
     width: 600px;
