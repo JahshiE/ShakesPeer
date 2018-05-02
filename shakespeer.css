@@ -3,6 +3,36 @@
     width: 800px;
 }
 
+.main-container {
+    /* 100% of the browser size */
+    width: 100%;
+    margin: auto;
+}
+
+.site-menu,
+.main-content,
+.sidebar {
+    float: left;
+}
+
+.site-menu,
+.sidebar {
+    width: 20%;
+}
+
+.main-content {
+    max-width: 60%;
+    margin-left: 10px;
+}
+
+.site-menu {
+    background-color: orange;
+}
+
+.sidebar {
+    background-color: goldenrod;
+}
+
 body {
     font-family: Verdana;
 }
