@@ -23,14 +23,17 @@
 .main-content {
     max-width: 60%;
     margin-left: 10px;
+    background-color: #9774AB;
 }
 
 .site-menu {
-    background-color: orange;
+    background-color: #9774AB;
+    border-color: white;
 }
 
 .sidebar {
-    background-color: goldenrod;
+    background-color: #3E1256;
+    color: white;
 }
 
 body {
@@ -38,17 +41,17 @@ body {
 }
 
 h1 {
-    color: goldenrod;
+    color: #3E1256;
 }
 nav ul {
-    background-color: orangered;
+    background-color: #582A72;
     list-style: none;
     padding: 0;
     width: 200px;
-    border: 1px solid orange;
+    border: 1px solid #9774AB;
 }
 nav ul li {
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid #764B8E;
     padding: 5px;
 }
 nav ul li a {
