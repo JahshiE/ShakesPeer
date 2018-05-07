@@ -13,17 +13,23 @@
 .main-content,
 .sidebar {
     float: left;
+    border-radius: 20px;
+
 }
 
 .site-menu,
 .sidebar {
     width: 20%;
+    
 }
 
 .main-content {
     max-width: 60%;
-    margin-left: 10px;
     background-color: #9774AB;
+    border-radius: 20px;
+    margin: 0px; 
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .site-menu {
