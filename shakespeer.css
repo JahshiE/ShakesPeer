@@ -1,8 +1,3 @@
-.solution {
-    /* This section is also called article, with an article tag */
-    width: 800px;
-}
-
 .main-container {
     /* 100% of the browser size */
     width: 100%;
