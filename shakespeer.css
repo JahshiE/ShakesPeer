@@ -1,24 +1,24 @@
-.main-container {
+.main_container {
     /* 100% of the browser size */
     width: 100%;
     margin: auto;
 }
 
-.solution-nav,
-.main-content,
-.feedback-section {
+.solution_nav,
+.main_content,
+.feedback_section {
     float: left;
     border-radius: 20px;
 
 }
 
-.solution-nav,
-.feedback-section {
+.solution_nav,
+.feedback_section {
     width: 20%;
     
 }
 
-.main-content {
+.main_content {
     max-width: 60%;
     background-color: #9774AB;
     border-radius: 20px;
@@ -27,12 +27,12 @@
     box-sizing: border-box;
 }
 
-.solution-nav {
+.solution_nav {
     background-color: #9774AB;
     color: white;
 }
 
-.feedback-section {
+.feedback_section {
     background-color: #3E1256;
     color: white;
 }
@@ -41,8 +41,8 @@
     width: 100%;
 }
 
-.utility-bar,
-.header-logo {
+.utility_bar,
+.header_logo {
       /* float: right;   */
 }
 
