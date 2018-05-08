@@ -29,12 +29,21 @@
 
 .solution-nav {
     background-color: #9774AB;
-    border-color: white;
+    color: white;
 }
 
 .feedback-section {
     background-color: #3E1256;
     color: white;
+}
+
+.header {
+    width: 100%;
+}
+
+.utility-bar,
+.header-logo {
+      /* float: right;   */
 }
 
 body {
@@ -57,7 +66,7 @@ nav ul li {
 }
 nav ul li a {
     color: white;
-     text-decoration: none; /* This removes the underline */ 
+    text-decoration: none; /* This removes the underline */ 
 }
 nav ul li a:hover {
     /* Makes the link underlined when mouse hovers over */
