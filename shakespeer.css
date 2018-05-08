@@ -4,6 +4,13 @@
     margin: auto;
 }
 
+.header, 
+.footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
 .solution_nav,
 .main_content,
 .feedback_section {
