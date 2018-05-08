@@ -4,16 +4,16 @@
     margin: auto;
 }
 
-.site-menu,
+.solution-nav,
 .main-content,
-.sidebar {
+.feedback-section {
     float: left;
     border-radius: 20px;
 
 }
 
-.site-menu,
-.sidebar {
+.solution-nav,
+.feedback-section {
     width: 20%;
     
 }
@@ -27,12 +27,12 @@
     box-sizing: border-box;
 }
 
-.site-menu {
+.solution-nav {
     background-color: #9774AB;
     border-color: white;
 }
 
-.sidebar {
+.feedback-section {
     background-color: #3E1256;
     color: white;
 }
