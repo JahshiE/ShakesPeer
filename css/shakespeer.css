@@ -17,14 +17,14 @@ body {
     border-radius: 20px;
 }
 
-.header,
+header,
 .content_container,
 .footer {
     margin: 0 0 20px 0;
 }
 
 
-.header, 
+header, 
 .footer {
     background-color: grey;
     color: white;
@@ -76,17 +76,19 @@ nav.utility_bar {
     color: white;
 }
 
-.header {
+header {
     width: 100%;
 }
 
 
-/* 
- .utility_bar,
+
+.utility_bar,
 .header_logo {
-        float: right;    
+        float: left;    
 }
 
+
+/*
 nav.utility_bar ul {
     list-style-type: none;
     margin: 0px;
