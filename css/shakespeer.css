@@ -25,6 +25,11 @@ h1 {
     /* height: 800px; */
 }
 
+.solution_nav,
+.feedback_section {
+    width: 20%;
+}
+
 header,
 .content_container,
 .footer {
