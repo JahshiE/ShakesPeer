@@ -1,13 +1,19 @@
+/*
+  ========================================
+  General Styles
+  ========================================
+*/
+
 body {
     width: 100%;     /* 100% of the browser size */
     margin: auto;
+    font-family: Verdana;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+h1 {
+    color: #3E1256;
+    margin: 0;
+    padding: 0;
 }
 
 .solution_nav,
@@ -26,6 +32,12 @@ header,
 }
 
 
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
 header, 
 .footer {
     background-color: grey;
@@ -33,13 +45,87 @@ header,
     padding: 15px;
 }
 
-
-
-.solution_nav,
-.feedback_section {
-    width: 20%;
-    
+/* ----- Utility Bar ----- */
+.header_logo {
+    float: left;
 }
+
+/* ----- Version Bar ----- */
+.version_bar {
+    /* No content yet */
+}
+
+/* ----- Utility Bar ----- */
+.utility_bar {
+    float: right;
+}
+
+    /* List of Utitilty Bar */
+    nav.utility_bar ul {
+        list-style-type: none; 
+        margin: 0px; 
+        padding: 0px; 
+        background-color: #3E1256; 
+    }
+    nav.utility_bar li {
+        float: left; 
+        margin: 0;
+    }
+    nav.utility_bar a {
+        display: block; 
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+    nav.utility_bar a:hover {
+        background-color: black;
+    }
+
+/*
+  ========================================
+  Solution Navigator
+  ========================================
+*/
+
+.solution_nav {
+    background-color: #9774AB;
+    color: white;
+}
+
+    /* List of Solution Navigator */
+    nav.solution_nav ul {
+        background-color: #582A72;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        border: 1px solid #9774AB;
+    }
+    nav.solution_nav ul li {
+        border-bottom: 1px solid #764B8E;
+        padding: 5px;
+    }
+    nav.solution_nav ul li a {
+        color: white;
+        text-decoration: none; /* This removes the underline */ 
+    }
+    nav.solution_nav ul li a:hover {
+        /* Makes the link underlined when mouse hovers over */
+        text-decoration: underline;
+    }
+
+/* Figure */
+.solution figure {
+    width: 600px;
+    border: 3px solid red;
+    padding: 5px;
+}
+
+/*
+  ========================================
+  Solution Content
+  ========================================
+*/
 
 .solution_content {
     max-width: 60%;
@@ -50,79 +136,37 @@ header,
     box-sizing: border-box;
 }
 
-.solution_nav {
-    background-color: #9774AB;
-    color: white;
-}
+/*
+  ========================================
+  Feedback
+  ========================================
+*/
 
 .feedback_section {
     background-color: #3E1256;
     color: white;
 }
 
-.header_logo {
-    float: left;
-}
+/*
+  ========================================
+  Messaging
+  ========================================
+*/
 
-.utility_bar {
-    float: right;
-}
 
-nav.utility_bar ul {
-    list-style-type: none; 
-    margin: 0px; 
-    padding: 0px; 
-    background-color: #3E1256; 
-}
 
-nav.utility_bar li {
-     float: left; 
-     margin: 0;
-}
 
-nav.utility_bar a {
-    display: block; 
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-}
 
-nav.utility_bar a:hover {
-    background-color: black;
-}
 
-body {
-    font-family: Verdana;
-}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
 
-h1 {
-    color: #3E1256;
-    margin: 0;
-    padding: 0;
-}
-nav.solution_nav ul {
-    background-color: #582A72;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    border: 1px solid #9774AB;
-}
-nav.solution_nav ul li {
-    border-bottom: 1px solid #764B8E;
-    padding: 5px;
-}
-nav.solution_nav ul li a {
-    color: white;
-    text-decoration: none; /* This removes the underline */ 
-}
-nav.solution_nav ul li a:hover {
-    /* Makes the link underlined when mouse hovers over */
-    text-decoration: underline;
-}
-
-.solution figure {
-    width: 600px;
-    border: 3px solid red;
-    padding: 5px;
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
