@@ -12,12 +12,28 @@
     clear: left;
 }
 
+nav.utility_bar {
+    /* float: right; */
+}
+
+/* .header_logo,
+.utility_bar {
+    float: left;
+} */
+
+/* .header_logo {
+    clear: left;
+}
+
+.utility_bar {
+    clear: right;
+} */
+
 .solution_nav,
 .main_content,
 .feedback_section {
     float: left;
     border-radius: 20px;
-
 }
 
 .solution_nav,
@@ -64,6 +80,7 @@ h1 {
 nav ul {
     background-color: #582A72;
     list-style: none;
+    margin: 0;
     padding: 0;
     width: 200px;
     border: 1px solid #9774AB;
