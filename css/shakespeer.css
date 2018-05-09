@@ -15,6 +15,8 @@ body {
 .feedback_section {
     float: left;
     border-radius: 20px;
+    /* overflow: auto; */
+    /* height: 800px; */
 }
 
 header,
@@ -29,25 +31,7 @@ header,
     background-color: grey;
     color: white;
     padding: 15px;
-    /* clear: left; */
 }
-
-nav.utility_bar {
-    /* float: right; */
-}
-
-/* .header_logo,
-.utility_bar {
-    float: left;
-} */
-
-/* .header_logo {
-    clear: left;
-}
-
-.utility_bar {
-    clear: right;
-} */
 
 
 
@@ -76,42 +60,36 @@ nav.utility_bar {
     color: white;
 }
 
-header {
-    width: 100%;
-}
-
-
-
-.utility_bar,
 .header_logo {
-        float: left;    
+    float: left;
 }
 
+.utility_bar {
+    float: right;
+}
 
-/*
 nav.utility_bar ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    border: 3px dotted black;
-    background-color: #3E1256;
+    list-style-type: none; 
+    margin: 0px; 
+    padding: 0px; 
+    background-color: #3E1256; 
 }
 
 nav.utility_bar li {
-    float: left;
-    border: 2px solid yellow;
-    margin: 10px;
-    padding: 20px;
-     background-color: #9774AB; 
+     float: left; 
+     margin: 0;
 }
 
 nav.utility_bar a {
-    display: block;
-    padding: 20px;
+    display: block; 
     color: white;
-     text-decoration: none; 
-     text-align: left; don't know if I need this yet 
-}  */
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav.utility_bar a:hover {
+    background-color: black;
+}
 
 body {
     font-family: Verdana;
@@ -119,6 +97,8 @@ body {
 
 h1 {
     color: #3E1256;
+    margin: 0;
+    padding: 0;
 }
 nav.solution_nav ul {
     background-color: #582A72;
@@ -127,7 +107,6 @@ nav.solution_nav ul {
     padding: 0;
     width: 200px;
     border: 1px solid #9774AB;
-    /* overflow: hidden;  prevents  li elements from going outside the list*/
 }
 nav.solution_nav ul li {
     border-bottom: 1px solid #764B8E;
@@ -147,25 +126,3 @@ nav.solution_nav ul li a:hover {
     border: 3px solid red;
     padding: 5px;
 }
-
-/* Notes:
-
-extra attributes (?)
-    background-color: green;
-    width: 100px;
-    height: 300px;
-    border: 5px solid brown;
-
-
-The structure of CSS:
-
-selector {
-    property_name: property:value;
-}
-
-article header p {
-    background-color: red;
-    color: white;
-}
-
-*/
