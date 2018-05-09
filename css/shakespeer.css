@@ -1,6 +1,5 @@
-.main_container {
-    /* 100% of the browser size */
-    width: 100%;
+body {
+    width: 100%;     /* 100% of the browser size */
     margin: auto;
 }
 
@@ -12,14 +11,14 @@
 }
 
 .solution_nav,
-.main_content,
+.solution_content,
 .feedback_section {
     float: left;
     border-radius: 20px;
 }
 
 .header,
-.content,
+.content_container,
 .footer {
     margin: 0 0 20px 0;
 }
@@ -58,7 +57,7 @@ nav.utility_bar {
     
 }
 
-.main_content {
+.solution_content {
     max-width: 60%;
     background-color: #9774AB;
     border-radius: 20px;
