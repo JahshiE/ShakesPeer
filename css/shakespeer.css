@@ -4,12 +4,33 @@
     margin: auto;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.solution_nav,
+.main_content,
+.feedback_section {
+    float: left;
+    border-radius: 20px;
+}
+
+.header,
+.content,
+.footer {
+    margin: 0 0 20px 0;
+}
+
+
 .header, 
 .footer {
     background-color: grey;
     color: white;
     padding: 15px;
-    clear: left;
+    /* clear: left; */
 }
 
 nav.utility_bar {
@@ -29,12 +50,7 @@ nav.utility_bar {
     clear: right;
 } */
 
-.solution_nav,
-.main_content,
-.feedback_section {
-    float: left;
-    border-radius: 20px;
-}
+
 
 .solution_nav,
 .feedback_section {
@@ -65,14 +81,36 @@ nav.utility_bar {
     width: 100%;
 }
 
-.utility_bar,
+
+/* 
+ .utility_bar,
 .header_logo {
-      /* float: right;   */
+        float: right;    
 }
 
 nav.utility_bar ul {
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: 3px dotted black;
+    background-color: #3E1256;
 }
+
+nav.utility_bar li {
+    float: left;
+    border: 2px solid yellow;
+    margin: 10px;
+    padding: 20px;
+     background-color: #9774AB; 
+}
+
+nav.utility_bar a {
+    display: block;
+    padding: 20px;
+    color: white;
+     text-decoration: none; 
+     text-align: left; don't know if I need this yet 
+}  */
 
 body {
     font-family: Verdana;
@@ -88,6 +126,7 @@ nav.solution_nav ul {
     padding: 0;
     width: 200px;
     border: 1px solid #9774AB;
+    /* overflow: hidden;  prevents  li elements from going outside the list*/
 }
 nav.solution_nav ul li {
     border-bottom: 1px solid #764B8E;
