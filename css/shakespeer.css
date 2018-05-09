@@ -70,6 +70,10 @@ nav.utility_bar {
       /* float: right;   */
 }
 
+nav.utility_bar ul {
+    list-style-type: none;
+}
+
 body {
     font-family: Verdana;
 }
@@ -77,7 +81,7 @@ body {
 h1 {
     color: #3E1256;
 }
-nav ul {
+nav.solution_nav ul {
     background-color: #582A72;
     list-style: none;
     margin: 0;
@@ -85,15 +89,15 @@ nav ul {
     width: 200px;
     border: 1px solid #9774AB;
 }
-nav ul li {
+nav.solution_nav ul li {
     border-bottom: 1px solid #764B8E;
     padding: 5px;
 }
-nav ul li a {
+nav.solution_nav ul li a {
     color: white;
     text-decoration: none; /* This removes the underline */ 
 }
-nav ul li a:hover {
+nav.solution_nav ul li a:hover {
     /* Makes the link underlined when mouse hovers over */
     text-decoration: underline;
 }
