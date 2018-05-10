@@ -11,9 +11,11 @@ body {
 }
 
 h1 {
-    color: #3E1256;
+    /* color: #3E1256; */
+    color: white;
     margin: 0;
     padding: 0;
+    /* font-size: 5em; */
 }
 
 .centered {
@@ -49,7 +51,7 @@ header,
 
 header, 
 .footer {
-    background-color: grey; 
+    background-color: grey;
     color: white;
     padding: 15px 0px;
     /* border: 1px solid grey; */
@@ -59,7 +61,9 @@ header,
 .header_logo {
     float: left;
     width: 20%;
-    border: 1px solid #3E1256;
+    /* border: 1px solid #3E1256; */
+    background-color: #3E1256; 
+
 }
 
 /* ----- Version Bar ----- */
