@@ -16,6 +16,10 @@ h1 {
     padding: 0;
 }
 
+.centered {
+    text-align: center;
+}
+
 .solution_nav,
 .solution_content,
 .feedback_section {
@@ -45,14 +49,17 @@ header,
 
 header, 
 .footer {
-    background-color: grey;
+    background-color: grey; 
     color: white;
-    padding: 15px;
+    padding: 15px 0px;
+    /* border: 1px solid grey; */
 }
 
 /* ----- Utility Bar ----- */
 .header_logo {
     float: left;
+    width: 20%;
+    border: 1px solid #3E1256;
 }
 
 /* ----- Version Bar ----- */
@@ -63,6 +70,7 @@ header,
 /* ----- Utility Bar ----- */
 .utility_bar {
     float: right;
+    width: 20%;
 }
 
     /* List of Utitilty Bar */
@@ -75,6 +83,8 @@ header,
     nav.utility_bar li {
         float: left; 
         margin: 0;
+        width: 33.3%;
+        text-align: center;
     }
     nav.utility_bar a {
         display: block; 
