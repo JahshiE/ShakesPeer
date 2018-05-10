@@ -93,8 +93,9 @@ header,
     nav.utility_bar a {
         display: block; 
         color: white;
-        padding: 10px 20px;
+        padding: 5px 20px 0 20px;
         text-decoration: none;
+        font-size: 25px;
     }
     nav.utility_bar a:hover {
         background-color: black;
