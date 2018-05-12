@@ -57,18 +57,13 @@ header,
     /* border: 1px solid grey; */
 }
 
-/* ----- Utility Bar ----- */
+/* ----- Header Logo ----- */
 .header_logo {
     float: left;
     width: 20%;
     /* border: 1px solid #3E1256; */
     background-color: #3E1256; 
 
-}
-
-/* ----- Version Bar ----- */
-.version_bar {
-    /* No content yet */
 }
 
 /* ----- Utility Bar ----- */
@@ -147,6 +142,8 @@ header,
   ========================================
 */
 
+/* ----- Solution Content (main) ----- */
+
 .solution_content {
     max-width: 60%;
     background-color: #9774AB;
@@ -155,6 +152,29 @@ header,
     padding: 20px;
     box-sizing: border-box;
 }
+
+    /* ----- Solution Content Bar ----- */
+    .solution_content_bar {
+        margin: 0;
+    }
+
+
+        /* ----- Version Bar ----- */
+        .version_bar {
+            width: 80%;
+            height: 25px;
+            border: 3px solid #582A72;
+            border-radius: 20px;
+            background-color: #ccc;
+            float: left;
+        }
+
+        /* ----- Edit Button ----- */
+        .edit_button {
+            float: right;
+        }
+
+
 
 /*
   ========================================
