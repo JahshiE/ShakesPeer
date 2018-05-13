@@ -167,11 +167,14 @@ header,
             border-radius: 20px;
             background-color: #ccc;
             float: left;
+
         }
 
         /* ----- Edit Button ----- */
         .edit_button {
+            width: 15%;
             float: right;
+            text-align: center;
         }
 
 
