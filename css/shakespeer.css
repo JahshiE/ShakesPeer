@@ -137,11 +137,8 @@ header,
         background-color: black;  
     }
 
-    nav.solution_nav ul {
-        list-style-type: none; 
-        margin: 0;
-        padding: 0;
-        width: 150px;
+    nav.solution_nav button:active {
+        background-color: #9774AB;  
     }
 
 /* Figure */
