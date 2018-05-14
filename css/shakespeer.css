@@ -133,6 +133,17 @@ header,
         cursor: pointer;
     }
 
+    nav.solution_nav button:hover {
+        background-color: black;  
+    }
+
+    nav.solution_nav ul {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        width: 150px;
+    }
+
 /* Figure */
 .solution figure {
     width: 600px;
