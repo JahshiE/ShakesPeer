@@ -131,14 +131,18 @@ header,
         border: none;
         font-size: 1.3em;
         cursor: pointer;
+        outline: none;
     }
 
     nav.solution_nav button:hover {
         background-color: black;  
     }
 
-    nav.solution_nav button:active {
-        background-color: #9774AB;  
+    nav.solution_nav button:active,
+    nav.solution_nav button.active {
+        background-color: #9774AB; 
+        color: black;
+        font-weight: bold;
     }
 
 /* Figure */
@@ -166,13 +170,13 @@ header,
     position: absolute;
     bottom: 0;
     top: 90.6px;
+    min-width: 60%;
 }
 
     /* ----- Solution Content Bar ----- */
     .solution_content_bar {
         margin: 0;
     }
-
 
         /* ----- Version Bar ----- */
         .version_bar {
@@ -192,7 +196,9 @@ header,
             text-align: center;
         }
 
-
+/* article {
+    width: inherit;
+} */
 
 /*
   ========================================
@@ -213,6 +219,16 @@ header,
 
 
 
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.footer {
+    display: none;
+}
 
 
 

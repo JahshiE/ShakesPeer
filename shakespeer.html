@@ -51,14 +51,30 @@
         <div class="content_container clearfix">
             <!-- Solution Navigator -->
             <nav class="solution_nav">
-                <button onclick="">Task</button>
-                <button onclick="">My Solution</button>
-                <button onclick="">Dima</button>
-                <button onclick="">Josh</button>
-                <button onclick="">Kevin</button>
-                <button onclick="">Lizzie</button>
-                <button onclick="">Shen</button>
-                <button onclick="">Shenma</button>
+                <button 
+                    class= "solution_tab" 
+                    onclick="showSolution(event, 'task')">Task</button>
+                <button 
+                    class= "solution_tab" 
+                    onclick="showSolution(event, 'my_solution')" id="default_open">My Solution</button>
+                <button 
+                    class= "solution_tab" 
+                    onclick="showSolution(event, 'dima_solution')">Dima</button>
+                <button 
+                    class= "solution_tab" 
+                    onclick="showSolution(event, 'josh_solution')">Josh</button>
+                <button 
+                    class= "solution_tab" 
+                    onclick="showSolution(event, 'kevin_solution')">Kevin</button>
+                <button 
+                    class= "solution_tab" 
+                    onclick="showSolution(event, 'lizzie_solution')">Lizzie</button>
+                <button 
+                    class= "solution_tab" 
+                    onclick="showSolution(event, 'shen_solution')">Shen</button>
+                <button 
+                    class= "solution_tab" 
+                    onclick="showSolution(event, 'shenma_solution')">Shenma</button>
             </nav>
 
             <!-- Solution Content -->
@@ -68,10 +84,10 @@
                 <div class="solution_content_bar clearfix">
                     <div class="version_bar" style="text-align:center">|&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;This is the version bar&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;|</div>
                     <button class="edit_button">+Edit</button>
-                </div>
+                </div> 
 
                 <!-- Main Article -->
-                <article>
+                <article id="my_solution">
                     <h2>Solution and Justification</h2>
                     <p>
                         Shakespeare uses a lot of imagery in his writing. Namely in Romeo and Juliet...
@@ -98,6 +114,13 @@
                         <figcaption>Figure 2. Our prototype design</figcaption>
                     </figure>
                 </article>
+                <article id="task">Task</article>
+                <article id="dima_solution">Dima</article>
+                <article id="josh_solution">Josh</article>
+                <article id="kevin_solution">Kevin</article>
+                <article id="lizzie_solution">Lizzie</article>
+                <article id="shen_solution">Shen</article>
+                <article id="shenma_solution">Shenma</article>
             </div>
             
             <!-- Feedback Section -->
