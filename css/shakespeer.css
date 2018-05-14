@@ -231,3 +231,17 @@ header,
     display: table;
     clear: both;
 }
+
+
+/*
+  ========================================
+  Colours
+  ========================================
+*/
+#colorscheme {
+    color: black;
+    color: #3E1256;
+    color: #764B8E;
+    color: #9774AB;
+    color: white;
+}
