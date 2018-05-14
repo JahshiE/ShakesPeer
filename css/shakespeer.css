@@ -26,7 +26,7 @@ h1 {
 .solution_nav,
 .solution_content {
     float: left;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* overflow: auto; */
     /* height: 800px; */
 }
@@ -38,7 +38,7 @@ h1 {
     border-radius: 20px;
     position: absolute;
     bottom: 0;
-    top: 90.333px;
+    top: 90.6px;
     margin: 0 75%;
 }
 
@@ -115,7 +115,9 @@ header,
 .solution_nav {
     background-color: #9774AB;
     color: white;
-    position: fixed;
+    position: absolute;
+    bottom: 0;
+    top: 90.6px;
     z-index: 1;
 }
 
@@ -159,14 +161,13 @@ header,
 .solution_content {
     max-width: 60%;
     background-color: #9774AB;
-    border-radius: 20px;
     margin-left: 15%; 
     padding: 20px;
     box-sizing: border-box;
     overflow-y: scroll;
     position: absolute;
     bottom: 0;
-    top: 90.333px;
+    top: 90.6px;
 }
 
     /* ----- Solution Content Bar ----- */
