@@ -8,6 +8,7 @@ body {
     width: 100%;     /* 100% of the browser size */
     margin: auto;
     font-family: Verdana;
+    background: black;
 }
 
 h1 {
@@ -23,17 +24,26 @@ h1 {
 }
 
 .solution_nav,
-.solution_content,
-.feedback_section {
+.solution_content {
     float: left;
     border-radius: 20px;
     /* overflow: auto; */
     /* height: 800px; */
 }
 
-.solution_nav,
+
 .feedback_section {
-    width: 20%;
+    width: 25%;
+    float: right;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    top: 90.333px;
+    margin: 0 75%;
+}
+
+.solution_nav {
+    width: 15%;
 }
 
 header,
@@ -105,6 +115,8 @@ header,
 .solution_nav {
     background-color: #9774AB;
     color: white;
+    position: fixed;
+    z-index: 1;
 }
 
     /* List of Solution Navigator */
@@ -113,7 +125,7 @@ header,
         list-style: none;
         margin: 0;
         padding: 0;
-        width: 200px;
+        width: 150px;
         border: 1px solid #9774AB;
     }
     nav.solution_nav ul li {
@@ -148,9 +160,13 @@ header,
     max-width: 60%;
     background-color: #9774AB;
     border-radius: 20px;
-    margin: 0px; 
+    margin-left: 15%; 
     padding: 20px;
     box-sizing: border-box;
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 0;
+    top: 90.333px;
 }
 
     /* ----- Solution Content Bar ----- */
