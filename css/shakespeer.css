@@ -80,16 +80,20 @@ header,
     color: white;
     padding: 0;
 }
+    .solution_tabs>li {
+        margin: 0;
+    }
 
-    button.solution_tab {
+    .solution_tabs>li>a {
         background-color: var(--primary);
         padding: 15px 20px;
     }
 
-    button.solution_tab:hover {
+    .solution_tabs>li>a:hover {
         background-color: var(--secondary);
         color: white;
     }
+
 
     button.solution_tab.active:focus,
     button.solution_tab:active:focus,
@@ -100,6 +104,17 @@ header,
         outline: 0;
         box-shadow: none;
     }
+
+.solution_tabs>li.active>a,
+.solution_tabs>li.active>a:focus {
+    border-color: #ddd transparent #ddd #ddd;
+    border-radius: 20px 0 0 20px;
+}
+
+.solution_tabs>li>a {
+    margin-right: 0;
+    border-radius: 0;
+}
 
     /* List of Solution Navigator */
     /* nav.solution_nav button {

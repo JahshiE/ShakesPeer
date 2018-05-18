@@ -52,31 +52,43 @@
         <div class="container-fluid">        
             <div class="row row-no-pad">
             <!-- Solution Navigator -->
-                <div class="col-md-2 btn-group-vertical solution_nav">
-                    <button 
-                        class= "btn solution_tab" 
-                        onclick="showSolution(event, 'task')">Task</button>
-                    <button 
-                        class= "btn solution_tab" 
-                        onclick="showSolution(event, 'my_solution')" id="default_open">My Solution</button>
-                    <button 
-                        class= "btn solution_tab" 
-                        onclick="showSolution(event, 'dima_solution')">Dima</button>
-                    <button 
-                        class= "btn solution_tab" 
-                        onclick="showSolution(event, 'josh_solution')">Josh</button>
-                    <button 
-                        class= "btn solution_tab" 
-                        onclick="showSolution(event, 'kevin_solution')">Kevin</button>
-                    <button 
-                        class= "btn solution_tab" 
-                        onclick="showSolution(event, 'lizzie_solution')">Lizzie</button>
-                    <button 
-                        class= "btn solution_tab" 
-                        onclick="showSolution(event, 'shen_solution')">Shen</button>
-                    <button 
-                        class= "btn solution_tab" 
-                        onclick="showSolution(event, 'shenma_solution')">Shenma</button>
+                <div class="col-md-2 solution_nav">
+                    <ul class="solution_tabs nav nav-tabs nav-stacked">
+                        <li role="presentation" class="solution_tab">
+                            <a href="#">Home</a></li>
+                        <li role="presentation" 
+                            class= "solution_tab" 
+                            onclick="showSolution(event, 'task')">
+                            <a href="#">Task</a></li>
+                        <li role="presentation" 
+                            class= "solution_tab" 
+                            onclick="showSolution(event, 'my_solution')" id="default_open">
+                            <a href="#">My Solution</a></li>
+                        <li role="presentation" 
+                            class= "solution_tab" 
+                            onclick="showSolution(event, 'dima_solution')">
+                            <a href="#">Dima</a></li>
+                        <li role="presentation" 
+                            class= "solution_tab" 
+                            onclick="showSolution(event, 'josh_solution')">
+                            <a href="#">Josh</a></li>
+                        <li role="presentation" 
+                            class= "solution_tab" 
+                            onclick="showSolution(event, 'kevin_solution')">
+                            <a href="#">Kevin</a></li>
+                        <li role="presentation" 
+                            class= "solution_tab" 
+                            onclick="showSolution(event, 'lizzie_solution')">
+                            <a href="#">Lizzie</a></li>
+                        <li role="presentation" 
+                            class= "solution_tab" 
+                            onclick="showSolution(event, 'shen_solution')">
+                            <a href="#">Shen</a></li>
+                        <li role="presentation" 
+                            class= "solution_tab" 
+                            onclick="showSolution(event, 'shenma_solution')">
+                            <a href="#">Shenma</a></li>
+                    </ul>
                 </div> 
 
                 <!-- Solution Content -->
