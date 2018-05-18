@@ -91,10 +91,14 @@ header,
         color: white;
     }
 
-    button.solution_tab:active {
+    button.solution_tab.active:focus,
+    button.solution_tab:active:focus,
+    button.solution_tab.active {
         background-color: var(--background);
         color: black;
         font-weight: bold;
+        outline: 0;
+        box-shadow: none;
     }
 
     /* List of Solution Navigator */
