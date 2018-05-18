@@ -1,7 +1,8 @@
 :root {
-    --color1: #764B8E;
-    --color2: black;
-    --colorbg: white;
+    --primary: #764B8E;
+    --secondary: #3E1256;
+    --black: black;
+    --background: white;
 }
 
 /* in code -> var(--color__) */
@@ -75,9 +76,26 @@ header,
 */
 
 .solution_nav {
-    background-color: #3E1256;
+    background-color: #ccc;
     color: white;
+    padding: 0;
 }
+
+    button.solution_tab {
+        background-color: var(--primary);
+        padding: 15px 20px;
+    }
+
+    button.solution_tab:hover {
+        background-color: var(--secondary);
+        color: white;
+    }
+
+    button.solution_tab:active {
+        background-color: var(--background);
+        color: black;
+        font-weight: bold;
+    }
 
     /* List of Solution Navigator */
     /* nav.solution_nav button {
