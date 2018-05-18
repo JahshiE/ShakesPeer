@@ -83,7 +83,7 @@ header,
 }
 
     /* List of Utitilty Bar */
-    nav.utility_bar ul {
+    /* nav.utility_bar ul {
         list-style-type: none; 
         margin: 0px; 
         padding: 0px; 
@@ -104,7 +104,7 @@ header,
     }
     nav.utility_bar a:hover {
         background-color: black;
-    }
+    } */
 
 /*
   ========================================

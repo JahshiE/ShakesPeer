@@ -4,6 +4,8 @@
         <title>ShakesPeer Webpage</title>
         <!-- So that 8bit characters are rendered -->
         <meta charset="UTF-8">
+        <!-- Mobile first styles - for proper rendering and touch zooming -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- For Bootstrap -->
         <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/> -->
@@ -13,25 +15,19 @@
         <!-- Linking html file to css file -->
         <link rel="stylesheet" href="css/shakespeer.css">
 
-        <!-- Boostrap - JQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- Bootstrap Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-
-
         <!-- Icons from fontawesome.com? -->
     </head>
     <body>
         <!-- Header -->
-        <header class="clearfix">
+        <nav class="navbar navbar-inverse">
+            <!-- <div class="container-fluid"> -->
             <!-- Header Logo -->
-            <div class="header_logo">
+            <div class="navbar-header">
                 <h1 class="centered">ShakesPeer</h1>
             </div>
             <!-- Utility Bar -->
             <nav class="utility_bar">
-                <ul class="clearfix">
+                <ul class="nav navbar-nav">
                     <li>
                         <a href="shakespeer.html">
                             <span class="glyphicon glyphicon-bell"></span>
@@ -49,10 +45,11 @@
                     </li>
                 </ul>
             </nav>
-        </header>
+            <!-- </div> -->
+        </nav>
 
         <!-- Content Container -->
-        <div class="content_container clearfix">
+        <div class="container-fluid">
             <!-- Solution Navigator -->
             <nav class="solution_nav">
                 <button 
@@ -163,8 +160,13 @@
             <p>This is my footer text</p>
         </div>
 
+        <!-- Boostrap - JQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Bootstrap Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
         <!-- Linking html to js file -->
-        <script src="js/shakespeer.js"></script>
+        <script src="js/bootstrap.js"></script>
     </body>
 
 </html>
