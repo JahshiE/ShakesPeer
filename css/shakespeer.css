@@ -1,3 +1,11 @@
+:root {
+    --color1: #764B8E;
+    --color2: black;
+    --colorbg: white;
+}
+
+/* in code -> var(--color__) */
+
 /*
   ========================================
   General Styles
@@ -8,7 +16,7 @@ body {
     width: 100%;     /* 100% of the browser size */
     margin: auto;
     font-family: Verdana;
-    background: black;
+    /* background: black; */
 }
 
 h1 {
@@ -23,28 +31,6 @@ h1 {
     text-align: center;
 }
 
-.solution_nav,
-.solution_content {
-    float: left;
-    /* border-radius: 20px; */
-    /* overflow: auto; */
-    /* height: 800px; */
-}
-
-
-.feedback_section {
-    width: 25%;
-    float: right;
-    border-radius: 20px;
-    position: absolute;
-    bottom: 0;
-    top: 90.6px;
-    margin: 0 75%;
-}
-
-.solution_nav {
-    width: 15%;
-}
 
 header,
 .content_container,
@@ -82,30 +68,6 @@ header,
     width: 20%;
 }
 
-    /* List of Utitilty Bar */
-    /* nav.utility_bar ul {
-        list-style-type: none; 
-        margin: 0px; 
-        padding: 0px; 
-        background-color: #3E1256; 
-    }
-    nav.utility_bar li {
-        float: left; 
-        margin: 0;
-        width: 33.3%;
-        text-align: center;
-    }
-    nav.utility_bar a {
-        display: block; 
-        color: white;
-        padding: 5px 20px 0 20px;
-        text-decoration: none;
-        font-size: 25px;
-    }
-    nav.utility_bar a:hover {
-        background-color: black;
-    } */
-
 /*
   ========================================
   Solution Navigator
@@ -115,14 +77,14 @@ header,
 .solution_nav {
     background-color: #3E1256;
     color: white;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     top: 90.6px;
-    z-index: 1;
+    z-index: 1; */
 }
 
     /* List of Solution Navigator */
-    nav.solution_nav button {
+    /* nav.solution_nav button {
         display: block;
         background-color: inherit;
         color: white;
@@ -143,14 +105,8 @@ header,
         background-color: #9774AB; 
         color: black;
         font-weight: bold;
-    }
+    } */
 
-/* Figure */
-.solution figure {
-    width: 600px;
-    border: 3px solid red;
-    padding: 5px;
-}
 
 /*
   ========================================
@@ -161,8 +117,8 @@ header,
 /* ----- Solution Content (main) ----- */
 
 .solution_content {
-    max-width: 60%;
-    background-color: #9774AB;
+    /* max-width: 60%; */
+    /* background-color: #9774AB;
     margin-left: 15%; 
     padding: 20px;
     box-sizing: border-box;
@@ -170,7 +126,7 @@ header,
     position: absolute;
     bottom: 0;
     top: 90.6px;
-    min-width: 60%;
+    min-width: 60%; */
 }
 
     /* ----- Solution Content Bar ----- */
@@ -195,6 +151,15 @@ header,
             float: right;
             text-align: center;
         }
+
+        
+    /* Figure */
+    .solution figure {
+        width: 600px;
+        border: 3px solid red;
+        padding: 5px;
+    }
+
 
 /* article {
     width: inherit;
