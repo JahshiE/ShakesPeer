@@ -17,6 +17,7 @@ body {
     margin: auto;
     font-family: Verdana;
     /* background: black; */
+    height: 100vh;
 }
 
 h1 {
@@ -31,29 +32,8 @@ h1 {
     text-align: center;
 }
 
-
 .header {
     margin: 0;
-}
-
-html, body, .container-fluid{
-    height: 100%;
-}
-
-.container-fluid {
-    height: 100%; 
-    display: table;
-    padding: 0;
-}
-
-.row {
-    height: 100%; 
-    display: table-row;
-}
-
-.row .no-float {
-    display: table-cell;
-    float: none;
 }
 
 
@@ -63,12 +43,8 @@ html, body, .container-fluid{
   ========================================
 */
 
-header, 
-.footer {
-    background-color: grey;
-    color: white;
-    padding: 15px 0px;
-    /* border: 1px solid grey; */
+.header {
+    border-radius: 0;
 }
 
 /* ----- Header Logo ----- */
@@ -149,6 +125,10 @@ header,
 */
 
 /* ----- Solution Content (main) ----- */
+    .solution_content {
+        overflow-y: auto;
+        height: 92.8vh; 
+    }
 
     /* ----- Solution Content Bar ----- */
     .solution_content_bar {
