@@ -193,8 +193,8 @@ header,
 */
 
 .feedback_section {
-    background-color: #3E1256;
-    color: white;
+    background-color: #eee;
+    border-left: 1px solid #ddd;
 }
 
 /*
