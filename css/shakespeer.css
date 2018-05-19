@@ -4,7 +4,6 @@
     --black: black;
     --background: white;
 }
-
 /* in code -> var(--color__) */
 
 /*
@@ -33,10 +32,8 @@ h1 {
 }
 
 
-header,
-.content_container,
-.footer {
-    margin: 0 0 20px 0;
+.header {
+    margin: 0;
 }
 
 
@@ -76,69 +73,50 @@ header,
 */
 
 .solution_nav {
-    background-color: #ccc;
-    color: white;
+    /* background-color: #ccc; */
+    /* color: white; */
     padding: 0;
 }
+    .solution_tabs {
+        border-style: solid;
+        border-color: #ccc;
+        border-width: 0 1px 1px 0;
+    }
     .solution_tabs>li {
+        background-color: #eee;
+    }
+
+    /* All li's immediately after an li */
+    .solution_tabs>li+li {
         margin: 0;
     }
 
     .solution_tabs>li>a {
-        background-color: var(--primary);
+        /* background-color: var(--primary); */
         padding: 15px 20px;
+        transition: 0.3s;
+        text-align: center;
+        color: #666;
     }
 
     .solution_tabs>li>a:hover {
-        background-color: var(--secondary);
-        color: white;
-    }
-
-
-    button.solution_tab.active:focus,
-    button.solution_tab:active:focus,
-    button.solution_tab.active {
-        background-color: var(--background);
-        color: black;
-        font-weight: bold;
-        outline: 0;
-        box-shadow: none;
+        /* background-color: var(--secondary); */
+        /* color: white; */
+        border-radius: 20px 0 0 20px;
+        background-color: #ddd;
     }
 
 .solution_tabs>li.active>a,
 .solution_tabs>li.active>a:focus {
-    border-color: #ddd transparent #ddd #ddd;
+    border-color: #ccc transparent #ccc #ccc;
     border-radius: 20px 0 0 20px;
+    font-weight: bold;
 }
 
 .solution_tabs>li>a {
     margin-right: 0;
     border-radius: 0;
 }
-
-    /* List of Solution Navigator */
-    /* nav.solution_nav button {
-        display: block;
-        background-color: inherit;
-        color: white;
-        padding: 15px 20px;
-        width: 100%;
-        border: none;
-        font-size: 1.3em;
-        cursor: pointer;
-        outline: none;
-    }
-
-    nav.solution_nav button:hover {
-        background-color: black;  
-    }
-
-    nav.solution_nav button:active,
-    nav.solution_nav button.active {
-        background-color: #9774AB; 
-        color: black;
-        font-weight: bold;
-    } */
 
 
 /*
