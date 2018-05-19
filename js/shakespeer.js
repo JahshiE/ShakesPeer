@@ -51,8 +51,8 @@ function createCommentFiller() {
     var divMediaBody = '<div class="media-body">';
     var h5MediaHeading = '<h5 class="media-heading">';
     var pFillerP = '</h5><p class="filler-p"></p>';
-    var aHappySpan = '<a href="#" class=""><i class="far fa-smile"> 0</i></a>';
-    var aSadSpan = '<a href="#" class=""><i class="far fa-frown"> 0</i></a>';
+    var aHappySpan = '<a onclick="increaseVoteCount(event)" href="#" class=""><i class="far fa-smile"> 0</i></a>';
+    var aSadSpan = '<a onclick="increaseVoteCount(event)" href="#" class=""><i class="far fa-frown"> 0</i></a>';
     var closingTags = '</div>';
 
     commentCards = document.getElementsByClassName("media");
@@ -73,3 +73,10 @@ function createCommentFiller() {
     fillWithFillers();
 }
 
+function increaseVoteCount(event) {
+    /* Increases the count of happy/sad feedback counters */
+    htmlSite = event.currentTarget.childNodes[0];
+    oldCount = parseInt(htmlSite.innerHTML);
+    newCount = oldCount + 1;
+    htmlSite.innerHTML = " "+(newCount).toString();
+}
