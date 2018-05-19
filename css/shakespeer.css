@@ -281,6 +281,63 @@ html {
 
 /*
   ========================================
+  Scrollbars
+  ========================================
+*/
+
+/*
+ *  STYLE 1
+ */
+
+/* SOURCE: https://codepen.io/devstreak/pen/dMYgeO */
+
+.scrollbar1::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #ccc;
+}
+
+
+/*
+ *  STYLE 2
+ */
+ /* SOURCE: https://codepen.io/devstreak/pen/dMYgeO */
+
+
+.scrollbar2::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.scrollbar2::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar2::-webkit-scrollbar-thumb
+{
+	background-color: #ccc;
+}
+
+
+/*
+  ========================================
   Colours
   ========================================
 */
