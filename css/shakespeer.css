@@ -17,7 +17,7 @@ body {
     margin: auto;
     font-family: Verdana;
     /* background: black; */
-    height: 100vh;
+    height: 100vh; 
 }
 
 h1 {
@@ -36,6 +36,33 @@ h1 {
     margin: 0;
 }
 
+body,
+html,
+.container-fluid {
+    /* height: 100%; */
+}
+
+.container-fluid {
+     /* overflow-y: hidden;  */
+     height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+html {
+    /* height: 100%; */
+}
+
+.top-row {
+    height: 10vh;
+}
+
+.main-row {
+    height: 90vh;
+    /* border: 2px solid red; */
+}
 
 /*
   ========================================
@@ -45,6 +72,7 @@ h1 {
 
 .header {
     border-radius: 0;
+    height: 100%;
 }
 
 /* ----- Header Logo ----- */
@@ -73,6 +101,7 @@ h1 {
     /* color: white; */
     padding: 0;
     background-color: #ddd;
+    height: 100%;
 }
     .solution_tabs {
         border-style: solid;
@@ -126,8 +155,9 @@ h1 {
 
 /* ----- Solution Content (main) ----- */
     .solution_content {
-        overflow-y: auto;
-        height: 92.8vh; 
+        overflow-y: auto; 
+        height: 100%;
+        padding-top: 20px; 
     }
 
     /* ----- Solution Content Bar ----- */
@@ -175,6 +205,7 @@ h1 {
 .feedback_section {
     background-color: #eee;
     border-left: 1px solid #ddd;
+    height: 100%; 
 }
 
 /*
@@ -182,19 +213,6 @@ h1 {
   Messaging
   ========================================
 */
-
-
-
-
-/*
-  ========================================
-  Footer
-  ========================================
-*/
-
-.footer {
-    display: none;
-}
 
 
 
