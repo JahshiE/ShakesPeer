@@ -36,6 +36,26 @@ h1 {
     margin: 0;
 }
 
+html, body, .container-fluid{
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%; 
+    display: table;
+    padding: 0;
+}
+
+.row {
+    height: 100%; 
+    display: table-row;
+}
+
+.row .no-float {
+    display: table-cell;
+    float: none;
+}
+
 
 /*
   ========================================
@@ -76,11 +96,12 @@ header,
     /* background-color: #ccc; */
     /* color: white; */
     padding: 0;
+    background-color: #ddd;
 }
     .solution_tabs {
         border-style: solid;
-        border-color: #ccc;
-        border-width: 0 1px 1px 0;
+        border-color: #ddd;
+        border-width: 0 1.5px 1px 0;
     }
     .solution_tabs>li {
         background-color: #eee;
@@ -97,6 +118,7 @@ header,
         transition: 0.3s;
         text-align: center;
         color: #666;
+        border-right: none;
     }
 
     .solution_tabs>li>a:hover {
@@ -111,6 +133,7 @@ header,
     border-color: #ccc transparent #ccc #ccc;
     border-radius: 20px 0 0 20px;
     font-weight: bold;
+    width: 101%;
 }
 
 .solution_tabs>li>a {
