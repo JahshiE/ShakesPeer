@@ -1,6 +1,10 @@
 // Default tab is my_solution
 document.getElementById("default_open").click();
 
+function fillText() {
+    createCommentFiller();
+}
+
 function showSolution(event, name_solution) {
     /* Shows the solution content for a specfic name selected in the solution navigator. 
         inputs: event -> event object
@@ -38,4 +42,34 @@ function fillWithFillers() {
     }
 }
 
+function createCommentFiller() {
+    /* Fills the feedback section with comments
+    */
+    var commentCards;
+
+    // Building up the HTML string to set as the innerHTML
+    var divMediaBody = '<div class="media-body">';
+    var h5MediaHeading = '<h5 class="media-heading">';
+    var pFillerP = '</h5><p class="filler-p"></p>';
+    var aHappySpan = '<a href="#" class="">Card link </a>';
+    var aSadSpan = '<a href="#" class="">Another link</a>';
+    var closingTags = '</div>';
+
+    commentCards = document.getElementsByClassName("media");
+    for (i=0; i < commentCards.length; i++) {
+        feedbackNumber = i + 1;
+        // alert(document.getElementById)
+        mediaObject = document.getElementById("JodieFeedback" + feedbackNumber.toString());
+        commentCards[i].innerHTML = 
+            divMediaBody
+            + h5MediaHeading
+            + mediaObject.getAttribute("data-name")
+            + pFillerP 
+            + aHappySpan 
+            + aSadSpan 
+            + closingTags;
+    }
+
+    fillWithFillers();
+}
 
