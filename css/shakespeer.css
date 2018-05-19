@@ -229,7 +229,13 @@ html {
         font-weight: bold;
     }
 
-/* ----- Comment Bar ----- */
+    .feedback_section i {
+        color: #777;
+        font-size: 1.5em;
+        padding-right: 30px;
+    }
+
+/* ----- Comment Input ----- */
     .feedback_section .row {
         padding: 0;
         margin-left: 0;

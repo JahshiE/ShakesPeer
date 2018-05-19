@@ -51,8 +51,8 @@ function createCommentFiller() {
     var divMediaBody = '<div class="media-body">';
     var h5MediaHeading = '<h5 class="media-heading">';
     var pFillerP = '</h5><p class="filler-p"></p>';
-    var aHappySpan = '<a href="#" class="">Card link </a>';
-    var aSadSpan = '<a href="#" class="">Another link</a>';
+    var aHappySpan = '<a href="#" class=""><i class="far fa-smile"> 0</i></a>';
+    var aSadSpan = '<a href="#" class=""><i class="far fa-frown"> 0</i></a>';
     var closingTags = '</div>';
 
     commentCards = document.getElementsByClassName("media");
