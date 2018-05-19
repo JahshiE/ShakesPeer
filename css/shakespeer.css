@@ -209,8 +209,15 @@ html {
     background-color: #eee;
     border-left: 1px solid #ddd;
     height: 100%; 
-    padding: 0px 5px 5px 5px;
+    padding: 0px 5px 45px 5px;
 }
+
+/* ----- Comments ----- */
+    .feedback_section .comments {
+        /* margin-bottom: 50px; */
+        height: 100%;
+        border-bottom: 1px solid #ddd;
+    }
 
     .feedback_section .media {
         border-bottom: 1px solid #aaa;
@@ -222,10 +229,17 @@ html {
         font-weight: bold;
     }
 
+/* ----- Comment Bar ----- */
+    .feedback_section .row {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     .feedback_section .form-row {
-        position: fixed;
+        position: absolute;
         bottom: 0;
+        /* border-top: 1px solid #ddd; */
     }
 
     .feedback_section .form-row,
