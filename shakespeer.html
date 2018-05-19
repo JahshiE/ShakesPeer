@@ -17,9 +17,7 @@
 
         <!-- Icons from fontawesome.com? -->
     </head>
-    <body>
-
-
+    <body onload="fillWithFillers()">
         <!-- Content Container -->
         <div class="container-fluid"> 
             <div class="top-row row"> 
@@ -92,7 +90,7 @@
                 </div> <!-- /Solution Navigator -->
 
                 <!-- Solution Content -->
-                <div class="solution_content col-md-8"> 
+                <div class="solution_content scrollable col-md-8"> 
                     <!-- Solution Content Bar -->
                     <div class="solution_content_bar clearfix">
                         <div class="version_bar" style="text-align:center">|&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;This is the version bar&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;|</div>
@@ -154,14 +152,45 @@
                     <article id="shenma_solution">
                         <h2>Shenma's Solution</h2>
                         <p>Lorem ipsum dolor sit amet, euismod molestie suavitate mel no, consul appetere forensibus sed te. Ne amet veri pertinax nec, sea no unum oblique voluptua. Pri cu paulo audiam minimum, vis ipsum interesset an. Zril malorum elaboraret ex vel. Omnis illum graece quo ad, veri constituto comprehensam qui cu.</p>
-                    </article>  
+                    </article> 
                 </div>  <!-- /Solution Content -->
 
                 <!-- Feedback Section -->
-                <div class="feedback_section col-md-2">
-                    <p>Feedback section here------------
-                        Lorem ipsum dolor sit amet, euismod molestie suavitate mel no, consul appetere forensibus sed te. Ne amet veri pertinax nec, sea no unum oblique voluptua. Pri cu paulo audiam minimum, vis ipsum interesset an. Zril malorum elaboraret ex vel. Omnis illum graece quo ad, veri constituto comprehensam qui cu.
-                    </p>
+                <div class="feedback_section scrollable col-md-2">
+                    <div class="media">
+                        <div class="media-body">
+                            <h5 class="media-heading">Josh</h5>
+                            <p class="filler-p"></p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-body border-warning">
+                            <h5 class="media-heading">Dima</h5>
+                            <p class="filler-p"></p>
+                            <a href="#" class="">Card link</a>
+                            <a href="#" class="">Another link</a>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-body border-warning">
+                            <h5 class="media-heading">Lizzie</h5>
+                            <p class="filler-p"></p>
+                            <a href="#" class="">Card link</a>
+                            <a href="#" class="">Another link</a>
+                        </div>
+                    </div>
+
+                    <!-- Form Row/Comment Bar -->
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <input type="text" id="comment" class="form-control">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <button class="btn btn-primary">Send</button>
+                        </div>
+                    </div>  <!-- /form-row -->
                 </div>  <!-- /Feedback Section -->
             </div>  <!-- /row -->
         </div>  <!-- /Main container -->
@@ -170,6 +199,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Bootstrap Latest compiled <JavaSc></JavaSc>ript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 
         <!-- Linking html to js file -->
         <script src="js/shakespeer.js"></script>

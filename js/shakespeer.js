@@ -7,7 +7,6 @@ function showSolution(event, name_solution) {
                 name_solution -> id of article tag to select.
         outputs: no return.
     */
-
     var i, solution_content, solution_tabs;
 
     // Setting all articles to display nothing
@@ -25,6 +24,18 @@ function showSolution(event, name_solution) {
     // Displaying the selected solution content
     document.getElementById(name_solution).style.display = "block";
     event.currentTarget.className += " active";
+}
+
+function fillWithFillers() {
+    /* Fills in document with filler text
+    */
+    var paragraphs;
+    var filler = "Lorem ipsum dolor sit amet, euismod molestie suavitate mel no, consul appetere forensibus sed te. Ne amet veri pertinax nec, sea no unum oblique voluptua.";
+    
+    paragraphs = document.getElementsByClassName("filler-p");
+    for (i=0; i < paragraphs.length; i++) {
+        paragraphs[i].innerHTML = filler;
+    }
 }
 
 

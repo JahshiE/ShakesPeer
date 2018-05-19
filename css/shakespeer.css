@@ -32,6 +32,10 @@ h1 {
     text-align: center;
 }
 
+.scrollable {
+    overflow-y: auto;
+}
+
 .header {
     margin: 0;
 }
@@ -155,7 +159,6 @@ html {
 
 /* ----- Solution Content (main) ----- */
     .solution_content {
-        overflow-y: auto; 
         height: 100%;
         padding-top: 20px; 
     }
@@ -206,7 +209,39 @@ html {
     background-color: #eee;
     border-left: 1px solid #ddd;
     height: 100%; 
+    padding: 0px 5px 5px 5px;
 }
+
+    .feedback_section .media {
+        border-bottom: 1px solid #aaa;
+        margin: 5px 0;
+        padding: 10px 10px;
+    }
+
+    .media-heading {
+        font-weight: bold;
+    }
+
+
+    .feedback_section .form-row {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .feedback_section .form-row,
+    .feedback_section .form-group {
+        padding: 0;
+    }
+
+        .feedback_section .form-row .col-md-8,
+        .feedback_section .form-row .col-md-4 {
+            margin-bottom: 5px;
+        }
+
+        .feedback_section .form-row .col-md-4 {
+            padding-left: 3px;
+        }
+
 
 /*
   ========================================
