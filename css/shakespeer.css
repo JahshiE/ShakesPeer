@@ -78,21 +78,28 @@ html {
     border-radius: 0;
     height: 100%;
 }
-
-/* ----- Header Logo ----- */
-.header_logo {
-    float: left;
-    width: 20%;
-    /* border: 1px solid #3E1256; */
-    background-color: #3E1256; 
-
+.header::after,
+.header::before {
+    display: block;
+    content: "";
+    height: 10%;
 }
 
-/* ----- Utility Bar ----- */
-.utility_bar {
-    float: right;
-    width: 20%;
-}
+    /* ----- Header Logo ----- */
+    .header_logo {
+        height: 80%;
+    }
+        .header_logo h1 {
+            /* border: 1px solid #3E1256; */
+            /* background-color: #3E1256; */
+            padding: 10px 0;
+            font-size: 2.2em;
+        }
+
+    /* ----- Utility Bar ----- */
+    .utility_bar {
+        
+    }
 
 /*
   ========================================
@@ -230,7 +237,6 @@ html {
         font-weight: bold;
         margin: 0;
         font-size: 0.8em;
-        
     }
 
 
@@ -290,9 +296,12 @@ html {
 
 /*
   ========================================
-  Clearfix
+  Miscellaneous
   ========================================
 */
+
+/* ----- Clearfix ----- */
+
 
 .clearfix:before,
 .clearfix:after {
@@ -301,18 +310,24 @@ html {
     clear: both;
 }
 
+/* ----- Vertical Align ----- */
 
-/*
-  ========================================
-  Scrollbars
-  ========================================
-*/
+/* 
+SOURCE: http://stackoverflow.com/a/20548578 &
+http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+.v-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
-/*
- *  STYLE 1
- */
+/* ----- Scrollbars ----- */
 
-/* SOURCE: https://codepen.io/devstreak/pen/dMYgeO */
+    /*
+    *  STYLE 1
+    */
+
+    /* SOURCE: https://codepen.io/devstreak/pen/dMYgeO */
 
 .scrollbar1::-webkit-scrollbar-track
 {
@@ -335,10 +350,10 @@ html {
 }
 
 
-/*
- *  STYLE 2
- */
- /* SOURCE: https://codepen.io/devstreak/pen/dMYgeO */
+    /*
+    *  STYLE 2
+    */
+    /* SOURCE: https://codepen.io/devstreak/pen/dMYgeO */
 
 
 .scrollbar2::-webkit-scrollbar-track

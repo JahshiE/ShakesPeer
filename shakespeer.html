@@ -28,15 +28,17 @@
     <!-- <body>  -->
         <!-- Content Container -->
         <div class="container-fluid"> 
+            <!-- Top Row -->
             <div class="top-row row"> 
                 <!-- Header -->
                 <nav class="header navbar navbar-inverse">
                     <!-- Header Logo -->
-                    <div class="navbar-header">
-                        <h1 class="centered">ShakesPeer</h1>
+                    <div class="header_logo navbar-header col-md-2">
+                        <h1 class="centered v-center">ShakesPeer</h1>
                     </div>
+                    <div class="col-md-8"></div>
                     <!-- Utility Bar -->
-                    <nav class="utility_bar">
+                    <nav class="utility_bar col-md-2">
                         <ul class="nav navbar-nav">
                             <li>
                                 <a href="shakespeer.html">
@@ -56,7 +58,7 @@
                         </ul>
                     </nav>  <!-- /Utility Bar -->
                 </nav>  <!-- /Header -->
-            </div> 
+            </div>  <!-- /Top Row -->
             
             <div class="main-row row">
                 <!-- Solution Navigator -->
@@ -92,8 +94,7 @@
                             <a href="#">Shen</a></li>
                         <li role="presentation" 
                             class= "solution_tab" 
-                            onclick="showSolution(event, 'shenma_solution')">
-                            <a href="#">Shenma</a></li>
+                            onclick="showSolution(event, 'shenma_solution')"><a href="#">Shenma</a></li>
                     </ul>
                 </div> <!-- /Solution Navigator -->
 
@@ -188,7 +189,7 @@
                         </div>
                     </div>  <!-- /form-row -->
                 </div>  <!-- /Feedback Section -->
-            </div>  <!-- /row -->
+            </div>  <!-- /Main Row -->
         </div>  <!-- /Main container -->
 
         <!-- Boostrap - JQuery library -->
