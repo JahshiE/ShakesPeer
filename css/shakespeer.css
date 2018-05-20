@@ -209,8 +209,25 @@ html {
     background-color: #eee;
     border-left: 1px solid #ddd;
     height: 100%; 
-    padding: 0px 5px 45px 5px;
+    padding: 0px 0px 70px 0px;
 }
+
+/* ----- Comments Header ----- */
+    .main-row .feedback_section .comments_header {
+        background-color: #ddd;
+        border-bottom: 1px solid #aaa;
+        width: 100%;
+        margin: 0;
+    }
+
+    .comments_header p {
+        padding: 2px;
+        font-weight: bold;
+        margin: 0;
+        font-size: 0.8em;
+        
+    }
+
 
 /* ----- Comments ----- */
     .feedback_section .comments {
@@ -238,8 +255,7 @@ html {
 /* ----- Comment Input ----- */
     .feedback_section .row {
         padding: 0;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0 5px;
     }
 
     .feedback_section .form-row {
